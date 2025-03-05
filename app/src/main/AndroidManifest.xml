@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/the"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TheCakeCorner"
+        tools:targetApi="31">
+        <activity
+            android:name=".useractivity.seeorder"
+            android:exported="false" />
+        <activity
+            android:name=".useractivity.home_items"
+            android:exported="false" />
+        <activity
+            android:name=".adminactivity.ad_edititem"
+            android:exported="false" />
+        <activity
+            android:name=".adminactivity.ad_seetype"
+            android:exported="false" />
+        <activity
+            android:name=".adminactivity.seeorders"
+            android:exported="false" />
+        <activity
+            android:name=".useractivity.searchcakes"
+            android:exported="false" />
+        <activity
+            android:name=".useractivity.orderpage"
+            android:exported="false" />
+        <activity
+            android:name=".adminactivity.additem"
+            android:exported="false" />
+        <activity
+            android:name=".adminactivity.seeuser"
+            android:exported="false" />
+        <activity
+            android:name=".adminactivity.addtype"
+            android:exported="false" />
+        <activity
+            android:name=".useractivity.search_and_see"
+            android:exported="false" />
+        <activity
+            android:name=".useractivity.items"
+            android:exported="false" />
+        <activity
+            android:name=".useractivity.userprofile"
+            android:exported="false" />
+        <activity
+            android:name=".useractivity.user_home"
+            android:exported="false" />
+        <activity
+            android:name=".adminactivity.ad_home"
+            android:exported="false" />
+        <activity
+            android:name=".useractivity.signpage"
+            android:exported="false" />
+        <activity
+            android:name=".loginpage"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
